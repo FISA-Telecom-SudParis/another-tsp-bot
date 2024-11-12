@@ -1,3 +1,5 @@
+name: "another-tsp-bot"
+
 services:
   fisa-bot:
     image: ghcr.io/fisa-telecom-sudparis/another-tsp-bot:master
