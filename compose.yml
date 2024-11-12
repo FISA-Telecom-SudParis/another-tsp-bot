@@ -2,6 +2,7 @@ name: "another-tsp-bot"
 
 services:
   fisa-bot:
+    container_name: fisa-bot
     image: ghcr.io/fisa-telecom-sudparis/another-tsp-bot:master
     user: "1000:1000"
     build:
