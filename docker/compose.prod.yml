@@ -27,3 +27,5 @@ services:
     command: -verbose -hooks=/app/webhook/hooks.yml -hotreload -template
     env_file:
       - ${PWD}/.env
+    profiles:
+      - webhook
