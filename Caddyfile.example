@@ -1,3 +1,7 @@
 https://yourdomain.com {
-	reverse_proxy http://filebrowser:8080
+	reverse_proxy http://tsp-bot-filebrowser:8080
+}
+
+https://wh.yourdomain.com {
+	reverse_proxy http://tsp-bot-webhook:9000
 }
