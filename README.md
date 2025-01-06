@@ -41,7 +41,7 @@ Vous pouvez aussi demander l'accès à l'organisation, contactez moi sur Discord
 #### Si vous ne connaissez pas git :
 
 - dans vos projets github, allez sur votre fork du projet :
-  ![Alt text](readme-images/repositories.png)
+  ![Alt text](.github/assets/repositories.png)
 - sur la page du projet, changez dans la barre de recherche le lien, modifiant "https://github.**com**/user/another-mp2i-bot/" en "https://github.**dev**/user/another-mp2i-bot/"
 - vous pouvez alors faire vos modifications sur un éditeur de code en ligne
 - une fois les changements fait, faites un commit de vos changement, puis ouvrez une Pull Request.
@@ -80,3 +80,14 @@ docker compose up
 
 Et le bot devrait démarrer.
 Sinon une execution python classique est possible.
+
+## Déployer
+
+Copiez le contenu de `deploy/` sur votre serveur. Vous pouvez utiliser l'URL suivante:  
+```
+https://downgit.github.io/#/home?url=https://github.com/FISA-Telecom-SudParis/another-tsp-bot/tree/master/deploy
+```
+
+Modifiez le contenu du `.env`, du `config.toml`, du `compose.yml` selon vos besoins.  
+Ces fichiers sont juste donnés en exemples: vous pouvez déployer le bot de la manière que vous souhaitez.  
+Par exemple, la partie "webhook" est seulement utile pour de déploiement continue, vous n'en aurez sûrement pas besoin.
