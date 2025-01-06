@@ -1,0 +1,7 @@
+https://fb.example.com:443 {
+	reverse_proxy http://fisa-bot-filebrowser:8080
+}
+
+https://wh.example.com:443 {
+	reverse_proxy http://fisa-bot-webhook:9000
+}
