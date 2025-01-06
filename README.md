@@ -41,7 +41,7 @@ Vous pouvez aussi demander l'accès à l'organisation, contactez moi sur Discord
 #### Si vous ne connaissez pas git :
 
 - dans vos projets github, allez sur votre fork du projet :
-  ![Alt text](readme-images/repositories.png)
+  ![Alt text](.github/assets/repositories.png)
 - sur la page du projet, changez dans la barre de recherche le lien, modifiant "https://github.**com**/user/another-mp2i-bot/" en "https://github.**dev**/user/another-mp2i-bot/"
 - vous pouvez alors faire vos modifications sur un éditeur de code en ligne
 - une fois les changements fait, faites un commit de vos changement, puis ouvrez une Pull Request.
