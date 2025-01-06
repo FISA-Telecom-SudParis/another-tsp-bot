@@ -14,8 +14,6 @@ services:
       - ./data/:/app/data/
       - ./config.toml:/app/config.toml
       - ./external_data/:/app/external_data/
-    networks:
-      - caddy
   filebrowser:
     extends:
       file: ./compose.filebrowser.yml

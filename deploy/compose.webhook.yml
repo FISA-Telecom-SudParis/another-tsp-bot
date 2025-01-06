@@ -1,6 +1,5 @@
 services:
   webhook:
-    hostname: fisa-bot-webhook
     image: lwlook/webhook
     expose:
       - 9000
